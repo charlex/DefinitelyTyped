@@ -5,6 +5,7 @@ export type CustomInputType =
   | 'select'
   | 'file'
   | 'radio'
+  | 'switch
   | 'checkbox';
 
 export type CustomInputProps<T = {}> = React.InputHTMLAttributes<HTMLInputElement> & {
